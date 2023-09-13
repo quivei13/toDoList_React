@@ -1,6 +1,8 @@
+import { useState } from "react"
 import "./styles.css"
 
 export default function App() {
+  useState()
   return (
     <>
       <form className="new-item-form">
@@ -9,9 +11,10 @@ export default function App() {
           <input type="text" id="item" />
         </div>
         <button className="btn">Add</button>
-
       </form>
+
       <h1 className="header">Todo List</h1>
+
       <ul className="list">
         <li>
           <label>
@@ -25,7 +28,7 @@ export default function App() {
             <input type="checkbox" />
             Item 2
           </label>
-          <button className="btn btn-danger">Delete</button>
+          <button className="btn btn-danger">Deletejajajaj</button>
         </li>
       </ul>
     </>
